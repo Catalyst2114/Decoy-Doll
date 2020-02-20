@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ninja_decoy",
+    "type": "TOOL",
+    "category": "tools",
+    "name": "Decoy doll",
+    "description": "I put on shirts on trees and attached strings so that I could produce movement. If you have bad heads, you will mistake this doll for you and show off your ski. It installs it by using it.",
+    "weight": 5000,
+    "volume": 15,
+    "price": 1000,
+    "bashing": 1,
+    "material": [ "wood", "cotton" ],
+    "symbol": "@",
+    "color": "brown",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "mon_ninja_decoy",
+      "friendly_msg": "The decoy doll seems to be dancing.",
+      "hostile_msg": " set up a decoy doll, but the control string has run out.",
+      "difficulty": 1,
+      "moves": 30,
+      "place_randomly": false,
+      "skill1": "survival"
+    }
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "decoy",
+    "name": "Decoy",
+    "authors": [ "hount of \"@\"" ],
+    "maintainers": [ "Chezzo", "ZhilkinSerg" ],
+    "description": "Decoy",
+    "category": "misc_additions",
+    "dependencies": [ "dda" ]
+  }
+]
