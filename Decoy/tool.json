@@ -1,6 +1,6 @@
 [
   {
-    "id": "ninja_decoy",
+    "id": "z_decoy",
     "type": "TOOL",
     "category": "tools",
     "name": "target zombie",
@@ -10,10 +10,10 @@
     "bashing": 1,
     "material": [ "wood", "cotton" ],
     "symbol": "@",
-    "color": "brown",
+    "color": "light_green",
     "use_action": {
       "type": "place_monster",
-      "monster_id": "mon_ninja_decoy",
+      "monster_id": "mon_decoy",
       "friendly_msg": "A loose collection of flesh, repurposed",
       "difficulty": 1,
       "moves": 30,
@@ -22,20 +22,20 @@
     }
   },
   {
-    "id": "ninja_decoy_armored",
+    "id": "az_decoy",
     "type": "TOOL",
     "category": "tools",
-    "name": "armored target soldier",
+    "name": "armored target zombie",
     "description": "Useful for simulating bullet impacts on the armored zombie.",
     "weight": 11000,
     "volume": 15,
     "bashing": 1,
     "material": [ "kevlar", "wood", "cotton" ],
     "symbol": "@",
-    "color": "brown",
+    "color": "light_green_green",
     "use_action": {
       "type": "place_monster",
-      "monster_id": "mon_ninja_decoy_armored",
+      "monster_id": "mon_decoy_armored",
       "friendly_msg": "A loose collection of flesh, repurposed and armored",
       "difficulty": 1,
       "moves": 30,

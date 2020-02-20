@@ -5,7 +5,7 @@
     "name": "Decoy",
     "authors": [ "hount of \"@\"" ],
     "maintainers": [ "Chezzo", "ZhilkinSerg" ],
-    "description": "Decoy",
+    "description": "I ripped the decoy item from Ninja Mod and made it into a target zombie",
     "category": "misc_additions",
     "dependencies": [ "dda" ]
   }

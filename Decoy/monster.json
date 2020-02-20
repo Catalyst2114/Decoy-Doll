@@ -1,6 +1,6 @@
 [
   {
-    "id": "mon_ninja_decoy",
+    "id": "mon_decoy",
     "type": "MONSTER",
     "name": "target zombie",
     "description": "A test dummy, something to approximate a basic zombie.",
@@ -12,18 +12,18 @@
     "speed": 10,
     "material": [ "wood", "cotton" ],
     "symbol": "@",
-    "color": "brown",
+    "color": "light_green",
     "aggression": 0,
     "morale": 0,
     "armor_bash": 2,
     "armor_cut": 1,
     "luminance": 0,
-    "death_drops": "mon_ninja_decoy",
+    "death_drops": "mon_decoy",
     "death_function": [ "DISAPPEAR" ],
     "flags": [ "SEES", "NOHEAD", "IMMOBILE", "NO_BREATHE" ]
   },
   {
-    "id": "mon_ninja_decoy",
+    "id": "mon_decoy",
     "type": "item_group",
     "subtype": "collection",
     "entries": [
@@ -35,7 +35,7 @@
     ]
   },
   {
-    "id": "mon_ninja_decoy_armored",
+    "id": "mon_decoy_armored",
     "type": "MONSTER",
     "name": "armored target zombie",
     "description": "A test dummy, something to approximate an armored zombie.",
@@ -47,18 +47,18 @@
     "speed": 10,
     "material": [ "steel", "wood", "cotton" ],
     "symbol": "@",
-    "color": "brown",
+    "color": "light_green_green",
     "aggression": 0,
     "morale": 0,
     "armor_bash": 12,
     "armor_cut": 25,
     "luminance": 0,
-    "death_drops": "mon_ninja_decoy_armored",
+    "death_drops": "mon_decoy_armored",
     "death_function": [ "DISAPPEAR" ],
     "flags": [ "SEES", "NOHEAD", "IMMOBILE", "NO_BREATHE" ]
   },
   {
-    "id": "mon_ninja_decoy_armored",
+    "id": "mon_decoy_armored",
     "type": "item_group",
     "subtype": "collection",
     "entries": [
