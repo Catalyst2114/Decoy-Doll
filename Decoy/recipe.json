@@ -5,14 +5,37 @@
     "category": "CC_OTHER",
     "subcategory": "CSC_OTHER_TRAPS",
     "skill_used": "fabrication",
-    "difficulty": 1,
-    "time": 10000,
+    "difficulty": 3,
+    "time": 120000,
     "reversible": false,
-    "book_learn": [ [ "mag_survival", 1 ], [ "textbook_survival", 1 ], [ "survival_book", 1 ], [ "pocket_survival", 1 ] ],
+    "autolearn": true,
     "components": [
-      [ [ "rag", 4 ], [ "tshirt", 1 ], [ "flag_shirt", 1 ], [ "linuxtshirt", 1 ], [ "tshirt_text", 1 ] ],
       [ [ "string_6", 6 ], [ "string_36", 1 ] ],
-      [ [ "2x4", 4 ] ]
+      [ [ "nail", 3 ] ],
+      [ [ "2x4", 4 ] ],
+      [ ["meat_tainted", 85] ],
+      [ ["fat_tainted", 20] ],
+      [ ["bone_tainted", 40] ]
+    ]
+  },
+  {
+    "result": "ninja_decoy_armored",
+    "type": "recipe",
+    "category": "CC_OTHER",
+    "subcategory": "CSC_OTHER_TRAPS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "time": 360000,
+    "reversible": false,
+    "autolearn": true,
+    "components": [
+      [ [ "string_6", 6 ], [ "string_36", 1 ] ],
+      [ [ "nail", 3 ] ],
+      [ [ "2x4", 4 ] ],
+      [ ["meat_tainted", 85] ],
+      [ ["fat_tainted", 20] ],
+      [ ["bone_tainted", 40] ],
+      [ ["kevlar_plate", 25] ]
     ]
   }
 ]

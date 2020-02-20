@@ -2,33 +2,72 @@
   {
     "id": "mon_ninja_decoy",
     "type": "MONSTER",
-    "name": "Decoy doll",
-    "description": "A test dummy, something to approximate a zombie.",
-    "default_faction": "player",
+    "name": "target zombie",
+    "description": "A test dummy, something to approximate a basic zombie.",
+    "default_faction": "zombie",
     "species": [ "ROBOT" ],
     "diff": 10,
     "size": "MEDIUM",
-    "hp": 300,
+    "hp": 500,
     "speed": 10,
     "material": [ "wood", "cotton" ],
     "symbol": "@",
     "color": "brown",
     "aggression": 0,
     "morale": 0,
-    "armor_bash": 1,
+    "armor_bash": 2,
     "armor_cut": 1,
     "luminance": 0,
+    "death_drops": "mon_ninja_decoy",
     "death_function": [ "DISAPPEAR" ],
     "flags": [ "SEES", "NOHEAD", "IMMOBILE", "NO_BREATHE" ]
   },
   {
-    "id": "ninja_decoy",
+    "id": "mon_ninja_decoy",
     "type": "item_group",
     "subtype": "collection",
     "entries": [
-      { "item": "2x4", "prob": 80, "count": 4 },
-      { "item": "rag", "prob": 80, "count": 4 },
-      { "item": "string_36", "prob": 80, "count": 1 }
+      { "item": "splinter", "prob": 80, "count": 12 },
+      { "item": "meat_tainted", "prob": 80, "count": 28 },
+      { "item": "string_6", "prob": 80, "count": 2 },
+      { "item": "fat_tainted", "prob": 80, "count": 6 },
+      { "item": "bone_tainted", "prob": 80, "count": 13 }
+    ]
+  },
+  {
+    "id": "mon_ninja_decoy_armored",
+    "type": "MONSTER",
+    "name": "armored target zombie",
+    "description": "A test dummy, something to approximate an armored zombie.",
+    "default_faction": "zombie",
+    "species": [ "ROBOT" ],
+    "diff": 10,
+    "size": "MEDIUM",
+    "hp": 500,
+    "speed": 10,
+    "material": [ "steel", "wood", "cotton" ],
+    "symbol": "@",
+    "color": "brown",
+    "aggression": 0,
+    "morale": 0,
+    "armor_bash": 12,
+    "armor_cut": 25,
+    "luminance": 0,
+    "death_drops": "mon_ninja_decoy_armored",
+    "death_function": [ "DISAPPEAR" ],
+    "flags": [ "SEES", "NOHEAD", "IMMOBILE", "NO_BREATHE" ]
+  },
+  {
+    "id": "mon_ninja_decoy_armored",
+    "type": "item_group",
+    "subtype": "collection",
+    "entries": [
+      { "item": "splinter", "prob": 80, "count": 12 },
+      { "item": "meat_tainted", "prob": 80, "count": 28 },
+      { "item": "string_6", "prob": 80, "count": 2 },
+      { "item": "fat_tainted", "prob": 80, "count": 6 },
+      { "item": "bone_tainted", "prob": 80, "count": 13 },
+      { "item": "kevlar_plate", "prob": 80, "count": 8 }
     ]
   }
 ]
