@@ -3,8 +3,7 @@
     "type": "MOD_INFO",
     "ident": "decoy",
     "name": "Decoy",
-    "authors": [ "hount of \"@\"" ],
-    "maintainers": [ "Chezzo", "ZhilkinSerg" ],
+    "authors": [ "Dandelion" ],
     "description": "I ripped the decoy item from Ninja Mod and made it into a target zombie",
     "category": "misc_additions",
     "dependencies": [ "dda" ]
